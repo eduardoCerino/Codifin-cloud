@@ -1,0 +1,170 @@
+.main{
+    background-color: white;
+    height: 96vh;
+    width: 30vh;
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    position:fixed;
+    margin-bottom: 5rem;
+}
+
+.collapsed{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    width: 15vh;
+    height: 96vh;
+}
+
+.options__item:hover {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 0.6rem;
+    color: white; 
+
+
+  }
+
+.options__item:hover p{
+
+    color: white;
+}
+.options__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 0.9rem;
+    color: white;
+
+}
+
+.options{
+   padding: 0.3rem;
+}
+
+.logo_bar{
+    width: 2.3rem;
+    margin-right: 1rem;
+}
+
+.logobar_collapsed{
+    margin-right: 0.6rem;
+    width: 2.5rem;
+
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+.top_collapsed{
+    border: none;
+}
+
+.user{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.user_collapsed{
+    display: none;
+}
+
+.icon_bar{
+    width: 2rem;
+    margin-left: 0.2rem;
+}
+
+
+.iconbar_collapsed{
+    font-size: 2.0rem;
+    margin-left: 0rem;
+
+}
+
+.logo_codifin{
+    width: 10rem;
+    margin-top: 10rem;
+}
+
+.logo_collapsed{
+    width: 5rem;
+    margin-top: 1rem;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.codifin_text{
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+.codifin_text_collapsed{
+    display: none;
+}
+
+.close_btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+  
+  .circle {
+    width: 12.3px;
+    height: 12.3px;
+    border-radius: 50%;
+    margin-right: 4px;
+    border: none;
+    cursor: pointer;
+
+  }
+  
+  .circle:nth-child(1) {
+    background-color: rgb(231, 83, 83);
+  }
+  
+  .circle:nth-child(2) {
+    background-color: rgb(224, 159, 37);
+  }
+  
+  .circle:nth-child(3) {
+    background-color: rgb(37, 186, 37);
+  }
+
+
+  .text {
+    font-size: 1rem;
+  }
+
+  .text_collapsed, .welcome_collapsed{
+      display: none;
+  }
+  
+
+
+  
+  .icon{
+    color: rgb(74, 74, 74);
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+button:hover .icon,
+button:hover .text {
+  color: white;
+}

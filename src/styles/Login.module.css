@@ -1,0 +1,122 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+.google_btn{
+    border-radius: 9px;
+    padding: 0.7rem;
+    width: 16rem;
+    background-color: white;
+    border: 1px solid #dadada;
+    color: black;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.left h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.right{
+    background-color: var(--primary-color);
+    width: 50%;
+    height: 97vh;
+    margin: 1rem;
+    border-radius: 9px;
+}
+
+
+.google{
+    width: 30px;
+}
+
+.email_option{
+    color: #989898;
+    font-weight: 200;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.input{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 9px;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: black;
+    background-color: #ffffff;
+    font-weight: 200;
+    border: 1px solid #dadada;
+}
+
+.input:hover{
+    border: 2.5px solid var(--primary-color);
+}
+
+
+.form button{
+    margin-top: 2rem;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 9px;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: var(--primary-color);
+    font-weight: 200;
+    border: 1px solid #dadada;
+}
+
+.signup{
+    color: #201f1f;
+    font-weight: 600;
+}
+
+.info{
+    color: #989898;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.email_option_container {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  .divider {
+    height: 1px;
+    width: 6.2rem;
+    background-color: #ccc;
+  }
+  
+  .email_option {
+    margin: 0 1rem;
+  }
+  

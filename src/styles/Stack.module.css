@@ -1,0 +1,50 @@
+.candidate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 0.5rem;
+    padding: 2rem;
+
+}
+.candidate:hover{
+    background-color: #dcd3fb;
+    cursor: pointer;
+}
+
+.candidates{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+  
+}
+.profile_pic{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 9px;
+    margin: 1rem;
+    background-color: #dcd3fb;
+}
+.candidate_name {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(62, 62, 62);
+}
+
+
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #f3ab46;
+}
+  
